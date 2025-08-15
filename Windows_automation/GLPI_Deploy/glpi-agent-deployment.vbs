@@ -118,7 +118,7 @@ SetupArchitecture = "Auto"
 '    You should use simple quotes (') to set between quotation marks those values
 '    that require it; double quotes (") doesn't work with UNCs.
 '
-SetupOptions = "/quiet RUNNOW=1 SERVER='https://suporte.agricultura.sp.gov.br/glpi/front/inventory.php' ADD_FIREWALL_EXCEPTION=1 DELAYTIME=60 SSL_FINGERPRINT='sha256$2fa506bc06ccd291a70702fdace91a6262a61e2cc85143d373c08328827b9a76' TAG='REGIONAL'"
+SetupOptions = "/quiet RUNNOW=1 SERVER='https://glpi/front/inventory.php' ADD_FIREWALL_EXCEPTION=1 DELAYTIME=60 SSL_FINGERPRINT='sha256$2fa506bc06ccd291a70702fdace91a6262a61e2cc85143d373c08328827b9a76' TAG='REGIONAL'"
 'SetupOptions = "/quiet RUNNOW=1 SERVER='http://glpi.yourcompany.com/plugins/fusioninventory'"
 
 ' Setup
