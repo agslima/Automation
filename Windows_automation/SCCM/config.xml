@@ -3,22 +3,22 @@
 	<LocalFiles>C:\ClientHealth</LocalFiles> <!-- Path locally on computer for temporary files and local clienthealth.log if LocalLogFile="True" -->
 	<Client Name="Version">5.00.9132.1023</Client>
 	<Client Name="SiteCode">BR1</Client>
-	<Client Name="Domain">REDEMAPA.AGRO</Client>
+	<Client Name="Domain">REDE</Client>
 	<Client Name="AutoUpgrade">True</Client>
-	<Client Name="Share">\\MASRV247.REDEMAPA.AGRO\Clienthealth$\Client</Client>
+	<Client Name="Share">\\MASRV247.REDE\Clienthealth$\Client</Client>
 	<Client Name="CacheSize" Value="10240" DeleteOrphanedData="True" Enable="True" />
 	<Client Name="Log" MaxLogSize="4096" MaxLogHistory="1" Enable="True" />
 	<ClientInstallProperty>SMSSITECODE=BR1</ClientInstallProperty>
-	<ClientInstallProperty>MP=MASRV2148.REDEMAPA.AGRO</ClientInstallProperty>
-	<ClientInstallProperty>FSP=MASRV247.REDEMAPA.AGRO</ClientInstallProperty>
-	<ClientInstallProperty>DNSSUFFIX=REDEMAPA.AGRO</ClientInstallProperty>
-	<ClientInstallProperty>/Source:\\MASRV247.REDEMAPA.AGRO\Clienthealth$\client</ClientInstallProperty>
-	<ClientInstallProperty>/MP:MASRV2148.REDEMAPA.AGRO</ClientInstallProperty>
+	<ClientInstallProperty>MP=MASRV2148.REDE</ClientInstallProperty>
+	<ClientInstallProperty>FSP=MASRV247.REDE</ClientInstallProperty>
+	<ClientInstallProperty>DNSSUFFIX=REDE</ClientInstallProperty>
+	<ClientInstallProperty>/Source:\\MASRV247.REDE\Clienthealth$\client</ClientInstallProperty>
+	<ClientInstallProperty>/MP:MASRV2148.REDE</ClientInstallProperty>
 	<ClientInstallProperty>/skipprereq:silverlight.exe</ClientInstallProperty>
         <ClientInstallProperty>/force</ClientInstallProperty>
         <ClientInstallProperty>/AllowMetered</ClientInstallProperty>
 	<Log Name="File" Share="\\MASRV247\clienthealth$\Logs" Level="Full" MaxLogHistory="8" LocalLogFile="True" Enable="True" /> <!-- Level: Full = everything. ClientInstall = only if installation of sccm agent fails.  -->
-	<Log Name="SQL" Server="SCCMDB.REDEMAPA.AGRO" Enable="False"/>
+	<Log Name="SQL" Server="SCCMDB.REDE" Enable="False"/>
 	<Log Name="Time" Format="ClientLocal" /> <!-- Valid formats: ClientLocal / UTC  -->
 	<Option Name="CcmSQLCELog" Enable="False" /> <!-- Optional check on the ConfigMgr agent if local database is corrupt -->
 	<Option Name="BITSCheck" Fix="True" Enable="True" />
