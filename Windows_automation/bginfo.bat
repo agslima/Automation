@@ -1,0 +1,1 @@
+\\192.168.2.4\suporte$\Bginfo\Bginfo.exe \\192.168.2.4\suporte$\Bginfo\mapa.bgi /TIMER:0 /NOLICPROMPT /SILENT
